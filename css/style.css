@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* CSS reset */
+:root{
+    --primary-color:#7c3aed;
+    --off-white: #f3f4f6;
+    --dark-grey:#6b7280;
+}
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family:"Montserrat", sans-serif;
+    padding:0 7rem;
+}
+nav{
+    background-color:var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 20px;
+}
+nav ul{
+    display:flex;
+    justify-content: end;
+    padding:1.3rem 3rem;
+}
+nav ul li{
+    padding-left: 3rem;
+}
+nav ul li a{
+  color:white;
+  text-decoration:none;
+  
+}
+nav h1{
+    text-align: center;
+}
+
+.image{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:550px;
+    align-items:center;
+}
+img{
+    max-width:550px;
+   height:auto
+}
+h2{
+  color:var(--dark-grey);
+  text-align: center;
+}
+span{
+    color: var(--primary-color);
+}
+.heading{
+    padding:7rem;
+    font-size:30px;
+}
+.detail{
+    text-align: center;
+}
+.technologies,.blogs,.first,.third{
+    background-color:var(--off-white);
+    padding:3rem;
+    margin: 2rem 0;
+    border-radius:27px;
+}
+
+.projects,.second{
+    padding: 3rem;
+    margin:2rem 0;
+}
+
+.para{
+    padding: 1rem;
+}
+.link{
+    display:flex;
+    justify-content: center;
+}
+.primary-link,.secondary-link{
+    text-decoration:none;
+    border-radius: 23px;
+    padding:0.6rem 1.2rem;
+}
+
+.primary-link{
+    background-color:var(--primary-color);
+    color:white;
+}
+
+.secondary-link{ 
+   color:var(--primary-color);
+   border:1px solid var(--primary-color);
+   margin-left: 1.5rem;
+}
+
+.primary-link:hover{
+    background-color: white;
+    color:var(--primary-color);
+   border:1px solid var(--primary-color);
+}
+
+.secondary-link:hover{
+    background-color:var(--primary-color);
+    color:white;
+}
+
+footer{
+    background-color:var(--primary-color);
+    text-align: center;
+    color:white;
+    border-top-right-radius: 20px;
+    padding:2rem;
+}
+footer ul li a{
+    color:white;
+    text-decoration: none;
+}
+footer ul{
+    display: flex;
+    justify-content:center;
+
+}
+footer ul li{
+    padding:1rem 2rem;
+}
